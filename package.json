@@ -1,5 +1,5 @@
 {
-  "name": "@cdaraujo/dope-date-formatter",
+  "name": "dope-date-formatter",
   "version": "1.0.0",
   "description": "a JS tool to format timestamp to human readable date!",
   "main": "index.js",
