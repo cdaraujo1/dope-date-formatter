@@ -20,6 +20,11 @@ Just convert the timstamp in milisseconds (ISO-8601) and the timezone/notation d
 npm install dope-date-formatter
 ```
 
+Import in the code.
+```
+const dope = require('dope-date-formatter')
+```
+
 #### Examples
 
 For example: Converting a timestamp to Brazilian date/hour format.
@@ -50,7 +55,7 @@ let ts_array = [ts1, ts2, ts3, ts4, ts5, ts6]
 
 ```
 ts_array.forEach(element => {
-    ts_formatted = dope.asyncFormat(element, "US24").then(function (value) {
+    ts_formatted = dope.asyncFormat(element, "US12").then(function (value) {
         ts_formatted = value;
         console.log(ts_formatted)
     }, () => {
