@@ -1,6 +1,6 @@
 {
   "name": "dope-date-formatter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a JS tool to format timestamp to human readable date!",
   "main": "src/index.js",
   "scripts": {
